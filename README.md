@@ -4,8 +4,8 @@
 Endpointler :
   
   İl :
-    il.php?id=
-    il.php?il=
+    il.php?id= <br>
+    il.php?il=<br>
     il.php?plaka=
     il.php
   İlçe :
