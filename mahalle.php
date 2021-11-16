@@ -19,8 +19,8 @@ if($_SERVER['REQUEST_METHOD'] == "GET") {
 
     if(isset($_GET["id"])){
 		$query = "select * from mahalle_koy where id='".$_GET["id"]."'";
-	}else if(isset($_GET["semt"])){
-		$query = "select * from mahalle_koy where SEMT_ADI_BUYUK='".strtoupper($_GET["semt"])."'";
+	}else if(isset($_GET["mahalle"])){
+		$query = "select * from mahalle_koy where SEMT_ADI_BUYUK='".strtoupper($_GET["mahalle"])."'";
 	}else if(isset($_GET["semt"])){
 		$bilgiler = $db->query("select * from semt where SEMT_ADI_BUYUK='".strtoupper($_GET["semt"])."'")->fetch_assoc();
 		$query = "select * from mahalle_koy where SEMT_ID='".$bilgiler["SEMT_ID"]."'";
