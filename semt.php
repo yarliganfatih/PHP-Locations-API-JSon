@@ -21,6 +21,8 @@ if($_SERVER['REQUEST_METHOD'] == "GET") {
 		$query = "select * from semt where id='".$_GET["id"]."'";
 	}else if(isset($_GET["semt"])){
 		$query = "select * from semt where SEMT_ADI_BUYUK='".strtoupper($_GET["ilce"])."'";
+	}else if(isset($_GET["postaKodu"])){
+		$query = "select * from semt where POSTA_KODU='".$_GET["postaKodu"]."'";
 	}else if(isset($_GET["ilce"])){
 		$bilgiler = $db->query("select * from ilce where ILCE_ADI_BUYUK='".strtoupper($_GET["ilce"])."'")->fetch_assoc();
 		$query = "select * from semt where ILCE_ID='".$bilgiler["ILCE_ID"]."'";
