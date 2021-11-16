@@ -2,7 +2,6 @@
 [GET] il / ilçe / semt / mahalle
 <br>
 <h2>Endpointler :<h2><br>
-  <br> 
   <h3>İl :</h3>
     il.php?id=<br>
     il.php?il=<br>
