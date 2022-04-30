@@ -3,35 +3,35 @@
 <br>
 <h2>Endpointler :<h2><br>
   <h3>İl :</h3>
-    il.php?id=<br>
-    il.php?il=<br>
-    il.php?plaka=<br>
-    il.php<br>
+    get/il.php?id=<br>
+    get/il.php?il=<br>
+    get/il.php?plaka=<br>
+    get/il.php<br>
   <hr>
   <h3>İlçe :</h3>
-    ilce.php?id=<br>
-    ilce.php?ilce=<br>
-    ilce.php?il=<br>
-    ilce.php?plaka=<br>
-    ilce.php<br>
+    get/ilce.php?id=<br>
+    get/ilce.php?ilce=<br>
+    get/ilce.php?il=<br>
+    get/ilce.php?plaka=<br>
+    get/ilce.php<br>
   <hr>
   <h3>Semt :</h3>
-    semt.php?id=<br>
-    semt.php?semt=<br>
-    semt.php?ilce=<br>
-    semt.php?il=<br>
-    semt.php?plaka=<br>
-    semt.php?postaKodu=<br>
-    semt.php<br>
+    get/semt.php?id=<br>
+    get/semt.php?semt=<br>
+    get/semt.php?ilce=<br>
+    get/semt.php?il=<br>
+    get/semt.php?plaka=<br>
+    get/semt.php?postaKodu=<br>
+    get/semt.php<br>
   <hr>
   <h3>Mahalle/Köy :</h3>
-    mahalle.php?id=<br>
-    mahalle.php?mahalle=<br>
-    mahalle.php?semt=<br>
-    mahalle.php?ilce=<br>
-    mahalle.php?il=<br>
-    mahalle.php?plaka=<br>
-    mahalle.php<br>
+    get/mahalle.php?id=<br>
+    get/mahalle.php?mahalle=<br>
+    get/mahalle.php?semt=<br>
+    get/mahalle.php?ilce=<br>
+    get/mahalle.php?il=<br>
+    get/mahalle.php?plaka=<br>
+    get/mahalle.php<br>
     
   <hr>
   <h2>Test API:</h2>
