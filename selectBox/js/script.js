@@ -68,7 +68,7 @@ $(document).ready(function() {
                 $('#Semtler').html('');
                 $('#Semtler').append($('<option>', {
                     value: 0,
-                    text: 'Lütfen bir ilçe seçiniz'
+                    text: 'Lütfen bir semt seçiniz'
                 }));
                 $('#Semtler').prop("disabled", false);
                 $.each(semtler["SEMT"], function(index, value) {
